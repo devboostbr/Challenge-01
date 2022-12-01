@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter';
+}
+.container{
+    max-width: 1216px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+h1{
+    font-family: 'Exo 2';
+    font-weight: 700;
+    font-size: 43px;
+    line-height: 53px;
+    color: #393D51;
+}
+.titulo{
+    font-family: 'Exo 2';
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #414246;
+}
+p{
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #414246;
+}
+.btn-primary{
+    width: 152px;
+    height: 44px;
+    border-radius: 7px;
+    background-color: #F1554C;
+    color: #fff;
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 16px;
+}
+.btn-primary:hover{
+    background-color: #D0423A;
+}
+header{
+    background-color: #F4F5FC;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+header .container nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .container ul{
+    display: flex;
+    justify-content: center;
+    margin-right: 25px;
+}
+header .container ul li{
+    margin-left: 26px;
+}
+header .container ul li a{
+    color: #393D51;
+}
+header .container ul li a:hover{
+    font-weight: 700;
+    color: #F1554C;
+}
+
+.hero{
+    height: 620px;
+    background-color: #F4F5FC;
+    display: flex;
+    align-items: center;
+}
+.hero .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hero .container .text h1, p{
+    max-width: 376px;
+}
+.hero .container .text span{
+    font-family: 'Exo 2';
+    font-weight: 700;
+    color: #F1554C;
+}
+.hero .container .text p{
+    margin: 15px 0 17px 0;
+}
+.hero .container .text .btns{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.hero .container .text .btns button{
+    margin-right: 27px;
+}
+.hero .container .text .btns .play a{
+    display: flex;
+    flex-direction: row;
+}
+.hero .container .text .btns .play a p{
+    margin-left: 10px;
+}
